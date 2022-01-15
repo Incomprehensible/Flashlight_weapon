@@ -83,8 +83,8 @@ TODO:\n1. remove terminal or not\n12. review schematics with Kolya\n13. make BOM
 $Sheet
 S 6800 1150 1350 650 
 U 61784D48
-F0 "WSON_LED_driver" 50
-F1 "WSON_driver.sch" 50
+F0 "WSSOP_LED_driver" 50
+F1 "WSSOP_driver.sch" 50
 $EndSheet
 Text Notes 3500 1100 0    50   ~ 0
 Reverse plug\nprotection
@@ -101,17 +101,6 @@ F 3 "~" H 9650 1500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9500 1500 9450 1500
-$Comp
-L Connector:Conn_01x06_Female J2
-U 1 1 61779D34
-P 10500 1400
-F 0 "J2" H 10528 1376 50  0000 L CNN
-F 1 "LED" H 10050 950 50  0000 L CNN
-F 2 "" H 10500 1400 50  0001 C CNN
-F 3 "~" H 10500 1400 50  0001 C CNN
-	1    10500 1400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10300 1200 10200 1200
 Wire Wire Line
@@ -514,7 +503,7 @@ L Device:C C5
 U 1 1 618E2F8B
 P 1200 2950
 F 0 "C5" V 1350 2850 50  0000 C CNN
-F 1 "C" V 1361 2950 50  0000 C CNN
+F 1 "C" V 1361 2950 50  0001 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1238 2800 50  0001 C CNN
 F 3 "~" H 1200 2950 50  0001 C CNN
 	1    1200 2950
@@ -1092,17 +1081,6 @@ Wire Wire Line
 	4550 1400 4350 1400
 Wire Wire Line
 	4050 1400 3900 1400
-$Comp
-L Device:Q_PMOS_DGS Q1
-U 1 1 616E4D53
-P 3700 1500
-F 0 "Q1" V 4000 1550 50  0000 L CNN
-F 1 "PMOS_Vin" V 3905 1455 50  0000 L CNN
-F 2 "Package_SO:SOP-8-1EP_4.57x4.57mm_P1.27mm_EP4.57x4.45mm_ThermalVias" H 3900 1600 50  0001 C CNN
-F 3 "~" H 3700 1500 50  0001 C CNN
-	1    3700 1500
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	3700 1750 3700 1700
 $Comp
@@ -1216,7 +1194,7 @@ U 1 1 61ABC513
 P 2100 1450
 F 0 "J3" H 2550 1150 50  0000 R CNN
 F 1 "XT30PW-F" H 2700 1650 50  0000 R CNN
-F 2 "Flashlight:XT30PWF" H 2750 1550 50  0001 L CNN
+F 2 "Flashlight:AMASS_XT30PW-F" H 2750 1550 50  0001 L CNN
 F 3 "https://www.tme.eu/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf" H 2750 1450 50  0001 L CNN
 F 4 "Socket; DC supply; XT30; female; PIN:2; on PCBs; THT; Colour: yellow" H 2750 1350 50  0001 L CNN "Description"
 F 5 "5" H 2750 1250 50  0001 L CNN "Height"
@@ -1255,4 +1233,40 @@ Wire Wire Line
 	2150 1350 2100 1350
 Connection ~ 2150 1350
 Connection ~ 1300 1350
+$Comp
+L Flashlight:XHP90 J2
+U 1 1 61DC20C9
+P 10500 1400
+F 0 "J2" H 10528 1376 50  0000 L CNN
+F 1 "XHP90" H 10528 1285 50  0000 L CNN
+F 2 "Flashlight:XHP90" H 10500 1400 50  0001 C CNN
+F 3 "~" H 10500 1400 50  0001 C CNN
+	1    10500 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flashlight:YJS4407A Q1
+U 1 1 61E5E62D
+P 3700 1500
+F 0 "Q1" V 4050 1500 50  0000 C CNN
+F 1 "PMOS_Vin" V 3950 1400 50  0000 C CNN
+F 2 "Flashlight:YJS4407A" H 3900 1600 50  0001 C CNN
+F 3 "~" H 3700 1500 50  0001 C CNN
+	1    3700 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3500 1300 3500 1400
+Connection ~ 3500 1400
+Wire Wire Line
+	3500 1400 3500 1500
+Connection ~ 3500 1500
+Wire Wire Line
+	3500 1500 3500 1600
+Wire Wire Line
+	3900 1600 3900 1500
+Connection ~ 3900 1400
+Connection ~ 3900 1500
+Wire Wire Line
+	3900 1500 3900 1400
 $EndSCHEMATC
