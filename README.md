@@ -13,3 +13,7 @@
 ### Further improvement in design:
 * Add a latching circuit with bistable relay to avoid losing power in emergency mode.
 * Add suitable input power filtering.
+
+Top             |  Bottom
+:-------------------------:|:-------------------------:
+![](SVG/top.svg)  |  ![](SVG/bottom.svg)
