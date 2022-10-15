@@ -1,5 +1,3 @@
-# Flashlight weapon project
-
 <img src="https://user-images.githubusercontent.com/21167984/195996789-b048d374-d32e-493f-831c-82f89510df39.png" height="500">
 
 
@@ -12,7 +10,7 @@
 ## Flashlight features
 __Two operation modes toggled by selector__
 
- * Normal light: regular use with light intensity regulation
+ * Normal light: regular use
 
  * Emergency mode: blinding light attack
 
