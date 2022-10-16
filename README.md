@@ -1,11 +1,11 @@
-<img src="https://user-images.githubusercontent.com/21167984/195996789-b048d374-d32e-493f-831c-82f89510df39.png" height="500">
+<img src="https://user-images.githubusercontent.com/21167984/196051934-0d80f43f-257b-4dec-876c-e3239edfac08.png" height="500">
 
 
 
 
 
 
-<img align="right" src="https://user-images.githubusercontent.com/21167984/195988344-1e1a6894-d30d-428e-af9c-e7eeb061bb04.png" height="400">
+<img align="right" src="https://user-images.githubusercontent.com/21167984/196051954-c692ead5-50b4-4583-a41f-7cc8bc2aa9a5.png" height="400">
 
 ## Flashlight features
 __Two operation modes toggled by selector__
@@ -23,7 +23,7 @@ __Mount for action camera accessories__
 <br/><br/>
 <br/><br/>
 <br/><br/>
-<img align="right" src="https://user-images.githubusercontent.com/21167984/195998748-c04a7f2c-64ba-4586-9e8b-77939eeff909.png" height="300"> <img align="right" src="https://user-images.githubusercontent.com/21167984/195988672-879098bb-99c2-44bb-85fa-705240d8f8ec.png" height="300">
+<img align="right" src="https://user-images.githubusercontent.com/21167984/195998748-c04a7f2c-64ba-4586-9e8b-77939eeff909.png" height="300"> <img align="right" src="https://user-images.githubusercontent.com/21167984/196051976-c2cca318-ea02-462b-a092-5cea49fbfe97.png" height="300">
 
 ### Electrical characteristics:
 * 12.6V - 10.5V input
