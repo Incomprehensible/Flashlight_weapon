@@ -30,8 +30,10 @@ __Mount for action camera accessories__
 * ~4.5A input
 * 7V output
 * 7.5A output
-
-
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
 ### Further improvement in design:
 * Add a latching circuit with bistable relay to avoid losing power in emergency mode.
 * Add suitable input power filtering.
@@ -39,3 +41,4 @@ __Mount for action camera accessories__
 Top             |  Bottom
 :-------------------------:|:-------------------------:
 ![](SVG/top.svg)  |  ![](SVG/bottom.svg)
+<img src="https://user-images.githubusercontent.com/21167984/196026665-79927111-e6c0-423b-a4e9-d343b155d208.png" height="400"> | <img src="https://user-images.githubusercontent.com/21167984/196026671-bbbf73bb-7768-4b2d-9cc5-4fe0228483e4.png" height="400">
